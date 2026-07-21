@@ -2,6 +2,8 @@
     <img src="logo.png" width="300" max-width="50%" alt=“Files” />
 </p>
 
+> **Fork notice:** This is a BrightDigit fork of [Files](https://github.com/JohnSundell/Files) by John Sundell, maintained for the BrightDigit site toolchain. Original work © John Sundell; modifications © 2026 BrightDigit. Distributed under the original MIT License — see LICENSE and NOTICE.
+
 <p align="center">
     <a href="https://dashboard.buddybuild.com/apps/5932f7d9b0c2b000015d6b79/build/latest?branch=master">
         <img src="https://dashboard.buddybuild.com/api/statusImage?appID=5932f7d9b0c2b000015d6b79&branch=master&build=latest" alt="BuddyBuild" />
