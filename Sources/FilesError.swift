@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Error thrown by location operations - such as find, move, copy and delete.
 public typealias LocationError = FilesError<LocationErrorReason>
 /// Error thrown by write operations - such as file/folder creation.
 public typealias WriteError = FilesError<WriteErrorReason>

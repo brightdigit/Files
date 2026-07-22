@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Enum listing reasons that a write operation could fail.
 public enum WriteErrorReason: Sendable {
   /// An empty path was given when writing or creating a location.
   case emptyPath

@@ -4,6 +4,7 @@
 *  MIT license, see LICENSE file for details
 */
 
+/// Enum listing reasons that a read operation could fail.
 public enum ReadErrorReason: Sendable {
   /// A file couldn't be read because of an underlying system error.
   case readFailed(any Error & Sendable)
