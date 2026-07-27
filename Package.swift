@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:6.4
 
 /**
  *  Files
@@ -10,6 +10,13 @@ import PackageDescription
 
 let package = Package(
     name: "Files",
+    // Mutex (Synchronization) requires iOS 18 / tvOS 18 / watchOS 11.
+    platforms: [
+        .macOS(.v15),
+        .iOS(.v18),
+        .tvOS(.v18),
+        .watchOS(.v11)
+    ],
     products: [
         .library(name: "Files", targets: ["Files"])
     ],
